@@ -16,15 +16,6 @@ Segmenting nodule regions from thyroid ultrasound images poses significant chall
 
 ---
 
-## 👥 Authors & Affiliations
-
-- **Parimisetty Sneha Deepika** (`AV.SC.U4AIE23034`)
-- **Ammisetty Nayana** (`AV.SC.U4AIE23051`)
-
-*Department of Computer Science and Engineering (Artificial Intelligence), Amrita Vishwa Vidyapeetham*
-
----
-
 ## 🔬 Key Contributions
 
 1. **Integrated Uncertainty-Aware Segmentation Pipeline:** Combines a custom U-Net architecture with Monte Carlo Dropout sampling ($N = 30$ stochastic forward passes) to estimate pixel-wise and boundary predictive variance.
@@ -169,17 +160,4 @@ jupyter notebook ThyroVision_Uncertainty_Aware_Complete_Source_Code.ipynb
 - **Exploratory Research:** The morphological descriptors and reliability indices computed in this repository are exploratory engineering metrics designed to quantify segmentation uncertainty. They **do not** constitute clinical risk scores or diagnostic predictions for thyroid malignancy.
 - **Data Splitting Caution:** While a reproducible split manifest is included, medical imaging datasets with multiple frames per patient require official patient-level splits to guarantee zero patient leakage prior to translation into clinical trials.
 
----
-
-## 📜 Citation
-
-If you use ThyroVision or find our research code helpful, please cite:
-
-```bibtex
-@misc{thyrovision2026,
-  title={ThyroVision: An Uncertainty-Aware and Explainable Framework for Thyroid Nodule Segmentation and Morphological Analysis in Ultrasound Images},
-  author={Sneha Deepika, Parimisetty and Nayana, Ammisetty},
-  year={2026},
-  institution={Amrita Vishwa Vidyapeetham}
-}
 ```
