@@ -1,0 +1,19 @@
+{
+  "project": "ThyroVision uncertainty-aware morphology reliability",
+  "seed": 42,
+  "image_size": 256,
+  "epochs_requested": 40,
+  "epochs_completed": 40,
+  "best_epoch": 39,
+  "best_validation_dice": 0.7598085370328691,
+  "mc_passes": 30,
+  "test_n": 614,
+  "test_dice_mean": 0.76519669460188,
+  "test_dice_std": 0.22307329334931256,
+  "test_iou_mean": 0.6610111187481978,
+  "test_iou_std": 0.23348325577780668,
+  "test_precision_mean": 0.7933425324273102,
+  "test_recall_mean": 0.8110267846818495,
+  "split_warning": "Image-level random split fallback. Replace with patient-level/official split for final claims.",
+  "clinical_warning": "Morphology index is exploratory and is not a malignancy or diagnostic score."
+}

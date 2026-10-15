@@ -1,0 +1,16 @@
+# PDF Reports & Documents (Excluded as requested)
+*.pdf
+ThyroVision_MIPS_Project_Report_Final_IEEE.pdf
+
+# Python / Jupyter artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

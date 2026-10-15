@@ -1,0 +1,7 @@
+uncertainty_measure,segmentation_error,n,spearman_rho,p_value
+mean_pixel_variance,dice_error,614,0.37501430500486604,6.142865674137123e-22
+mean_pixel_variance,iou_error,614,0.37501430500486604,6.142865674137123e-22
+boundary_uncertainty,dice_error,605,0.6994823263181225,4.834590949405023e-90
+boundary_uncertainty,iou_error,605,0.6994823263181225,4.834590949405023e-90
+mean_entropy,dice_error,614,0.053283670935768294,0.18731502673140782
+mean_entropy,iou_error,614,0.053283670935768294,0.18731502673140782

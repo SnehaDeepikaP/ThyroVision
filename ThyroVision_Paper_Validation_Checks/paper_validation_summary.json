@@ -1,0 +1,111 @@
+{
+  "source_zip": "ThyroVision_Research_Results.zip",
+  "test_rows": 614,
+  "failure_summary": {
+    "zero_dice_cases": 0,
+    "test_cases": 614,
+    "rows_with_all_pred_features_missing": 9
+  },
+  "interval_coverage_width": [
+    {
+      "feature": "area",
+      "n": 614,
+      "empirical_coverage": 0.38273615635179153,
+      "mean_interval_width": 2565.5985342019544,
+      "median_interval_width": 1728.025
+    },
+    {
+      "feature": "perimeter",
+      "n": 614,
+      "empirical_coverage": 0.39087947882736157,
+      "mean_interval_width": 249.23451463192148,
+      "median_interval_width": 197.788377515751
+    },
+    {
+      "feature": "circularity",
+      "n": 614,
+      "empirical_coverage": 0.43973941368078173,
+      "mean_interval_width": 14531145.511014886,
+      "median_interval_width": 0.24912348622126312
+    },
+    {
+      "feature": "aspect_ratio",
+      "n": 614,
+      "empirical_coverage": 0.5325732899022801,
+      "mean_interval_width": 0.4725995417223872,
+      "median_interval_width": 0.2503462594445235
+    },
+    {
+      "feature": "solidity",
+      "n": 614,
+      "empirical_coverage": 0.4543973941368078,
+      "mean_interval_width": 0.11360013742947415,
+      "median_interval_width": 0.07459962796576852
+    },
+    {
+      "feature": "eccentricity",
+      "n": 614,
+      "empirical_coverage": 0.5798045602605864,
+      "mean_interval_width": 0.23764835575109722,
+      "median_interval_width": 0.19728702819947186
+    },
+    {
+      "feature": "skeleton_length",
+      "n": 614,
+      "empirical_coverage": 0.0732899022801303,
+      "mean_interval_width": 239.8956433224755,
+      "median_interval_width": 207.925
+    },
+    {
+      "feature": "branch_points",
+      "n": 614,
+      "empirical_coverage": 0.019543973941368076,
+      "mean_interval_width": 48.50565960912051,
+      "median_interval_width": 35.42499999999997
+    }
+  ],
+  "uncertainty_segmentation_error_correlations": [
+    {
+      "uncertainty_measure": "mean_pixel_variance",
+      "segmentation_error": "dice_error",
+      "n": 614,
+      "spearman_rho": 0.37501430500486604,
+      "p_value": 6.142865674137123e-22
+    },
+    {
+      "uncertainty_measure": "mean_pixel_variance",
+      "segmentation_error": "iou_error",
+      "n": 614,
+      "spearman_rho": 0.37501430500486604,
+      "p_value": 6.142865674137123e-22
+    },
+    {
+      "uncertainty_measure": "boundary_uncertainty",
+      "segmentation_error": "dice_error",
+      "n": 605,
+      "spearman_rho": 0.6994823263181225,
+      "p_value": 4.834590949405023e-90
+    },
+    {
+      "uncertainty_measure": "boundary_uncertainty",
+      "segmentation_error": "iou_error",
+      "n": 605,
+      "spearman_rho": 0.6994823263181225,
+      "p_value": 4.834590949405023e-90
+    },
+    {
+      "uncertainty_measure": "mean_entropy",
+      "segmentation_error": "dice_error",
+      "n": 614,
+      "spearman_rho": 0.053283670935768294,
+      "p_value": 0.18731502673140782
+    },
+    {
+      "uncertainty_measure": "mean_entropy",
+      "segmentation_error": "iou_error",
+      "n": 614,
+      "spearman_rho": 0.053283670935768294,
+      "p_value": 0.18731502673140782
+    }
+  ]
+}
